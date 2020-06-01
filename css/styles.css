@@ -2274,7 +2274,7 @@ footer {
        max-width: 245px;
    }
 }
-@media only screen and (max-width : 768px) {
+@media only screen and (max-width : 767px) {
     #nav-transparent .navigation-fixed-wrapper:before {
      height:115px;
     }
