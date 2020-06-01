@@ -1969,9 +1969,13 @@ footer {
 	text-align: center;
 	/*height:auto;*/
 
-  height: 310px;
-	width: 100% !important;
+    min-height: 310px;
+	min-width: 100% !important;
 	margin: 0 auto;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
 }
 .instagram_feed .thumbnailcontainer {
 	position: absolute;
@@ -2282,10 +2286,10 @@ footer {
         width: 60%;
     }
     .instagram_feed{
-        height: auto;
+/*        height: auto;*/
     }
     .instagram_feed img{
-        height: auto !important
+/*        height: auto !important*/
     }
     
 }
